@@ -16,35 +16,16 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.holder{
-
-}
-
 .entry{
     background: rgba(59, 74, 107, .4);
 }
 
-#entryHolder{
-
-}
-
 #date{
-
+margin-top: 10px;
 }
 
-#temp{
-
-}
-
-#content{
-
-}
-
-.headline {
-
-}
 .title{
-
+    font-size: 30px;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -74,6 +55,11 @@ button{
     border: none;
     box-shadow: 2px 4px 5px #444;
 }
+
+button:hover {
+    border:#f0d43a 2px solid;
+}
+
 h1{
     font-size: 36px;
 }
@@ -84,6 +70,7 @@ textarea{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
+
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
@@ -95,17 +82,14 @@ button:focus {
 ::placeholder { /* Firefox, Chrome, Opera */ 
     color: #f0d43a; 
     font-family: 'Oswald', sans-serif;
-
 } 
   
 :-ms-input-placeholder { /* Internet Explorer 10-11 */ 
     color: #f0d43a; 
     font-family: 'Oswald', sans-serif;
-
 } 
   
 ::-ms-input-placeholder { /* Microsoft Edge */ 
     color: #f0d43a; 
     font-family: 'Oswald', sans-serif;
-
 } 
